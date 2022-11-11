@@ -1,0 +1,75 @@
+import static java.lang.Math.*;
+import java.util.Scanner;
+
+public class FirstSample 
+{
+	public static void main(String[] args)
+	{
+		System.out.println("We will not use 'hello, World'");
+		
+		//3.7.2 格式化输出
+		//时间格式
+		System.out.println("%1$s %2$te %2$te", "Due date:", new Date());
+		
+		double x = -10000.0/3.0;
+		System.out.printf("%,(+8.4f",x);
+		
+		String name3_7_2 = "robin";
+		Byte age3_7_2 = 30;
+		
+		//System.out.printf("Hello, %s. Next year, you will be %d", name3_7_2, age3_7_2);
+		String message = String.format("Hello, %s. Next year, you will be %d", name3_7_2, age3_7_2);
+		
+		System.out.println(message);
+		
+		
+		
+		
+		/**
+		//3.7.1 读取输入
+		java.util.Scanner in = new Scanner(System.in);
+		System.out.println("What is your name?");
+		String name = in.next();
+		
+		System.out.println("hello world "+name);
+		
+		//3.6.9 构建字符串
+		StringBuilder builder = new StringBuilder();
+		var a = "hello";
+		var b = " world";
+		var c = "java ";
+		builder.append(a);
+		builder.append(b);
+		builder.insert(6, c);
+		builder.delete(1, 3);
+		
+		System.out.println(builder.toString());
+		
+		
+		String str = null;
+		
+		String greeting = "hello";
+		System.out.println("Hello".equals(greeting));
+		
+		
+		for(int i=1; i<5; i++)
+		{
+			System.out.println(i);
+		}
+		
+		System.out.println(sqrt(PI));
+		
+		enum Size {SMALL,MEDIUM,LARGE,EXTRA_LARGE};
+		Size s = Size.M;
+		
+		long n =1234567890;
+		float f = n ; 
+		System.out.println(n);
+		
+		int x =1 ;
+		System.out.println(x+3.5);
+		
+		*/
+	}
+}
+ 

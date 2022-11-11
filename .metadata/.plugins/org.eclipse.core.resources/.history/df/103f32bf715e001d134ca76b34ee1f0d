@@ -1,0 +1,16 @@
+import static java.lang.Math.*;
+public class FirstSample 
+{
+	public static void main(String[] args)
+	{
+		System.out.println("We will not use 'hello, World'");
+		System.out.println(sqrt(PI));
+
+		//enum Size {SMALL,MEDIUM,LARGE,EXTRA_LARGE};
+		//Size s = Size.M;
+		long n = 1234567890;
+		float f = n ; 
+		System.out.println(n);
+	}
+}
+ 

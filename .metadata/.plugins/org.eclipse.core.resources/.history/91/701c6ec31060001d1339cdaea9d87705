@@ -1,0 +1,102 @@
+import static java.lang.Math.*;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Path;
+import java.util.Date;
+import java.util.Scanner;
+
+public class FirstSample 
+{
+	public static void main(String[] args) throws IOException
+	{
+		System.out.println("We will not use 'hello, World'");
+		
+		//3.10.1 数组
+		int[] a = {2,3,5,7,13,};
+		System.out.println(a[4]);
+
+		String[] names = new String[10];
+		for(int i=0; i<names.length; i++) 
+		{
+			System.out.println(names[i]);
+		}
+		//3.10.1 foreach
+		foreach(a : b) b;
+			
+		
+		/**
+		//3.7.3 文件输入与输出--
+		Scanner in = new Scanner(Path.of("D:\\1.txt"), StandardCharsets.UTF_8);
+		System.out.println(in);
+
+		//PrintWriter out = new PrintWriter("myfile.txt", StandardCharsets.UTF_8);
+		 
+		
+		//3.7.2 格式化输出
+		//时间格式
+		System.out.printf("%1$s %2$td %2$tB, %2$tY", "Due date:", new Date());
+		System.out.print("\n");
+		System.out.printf("%s %td %<tB, %<tY", "Due date:", new Date());
+		System.out.print("\n");
+
+		double x = -10000.0/3.0;
+		System.out.printf("%,(+8.4f",x);
+		
+		String name3_7_2 = "robin";
+		Byte age3_7_2 = 30;
+		
+		//System.out.printf("Hello, %s. Next year, you will be %d", name3_7_2, age3_7_2);
+		String message = String.format("Hello, %s. Next year, you will be %d", name3_7_2, age3_7_2);
+		
+		System.out.println(message);
+		
+
+		//3.7.1 读取输入
+		java.util.Scanner in = new Scanner(System.in);
+		System.out.println("What is your name?");
+		String name = in.next();
+		
+		System.out.println("hello world "+name);
+		
+		//3.6.9 构建字符串
+		StringBuilder builder = new StringBuilder();
+		var a = "hello";
+		var b = " world";
+		var c = "java ";
+		builder.append(a);
+		builder.append(b);
+		builder.insert(6, c);
+		builder.delete(1, 3);
+		
+		System.out.println(builder.toString());
+		
+		
+		String str = null;
+		
+		String greeting = "hello";
+		System.out.println("Hello".equals(greeting));
+		
+		
+		for(int i=1; i<5; i++)
+		{
+			System.out.println(i);
+		}
+		
+		System.out.println(sqrt(PI));
+		
+		enum Size {SMALL,MEDIUM,LARGE,EXTRA_LARGE};
+		Size s = Size.M;
+		
+		long n =1234567890;
+		float f = n ; 
+		System.out.println(n);
+		
+		int x =1 ;
+		System.out.println(x+3.5);
+		
+		*/
+	}
+}
+ 
